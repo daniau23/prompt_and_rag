@@ -7,3 +7,5 @@ This is a repo for learning prompting and RAG. In the coming days, I woulld be u
     - few_shot
     - chain_prompting
     - chain_of_thought
+- Saving prompts
+    - using_prompt_templates
