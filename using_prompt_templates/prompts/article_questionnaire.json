@@ -1,0 +1,9 @@
+{
+    "template": "\nAnswer the question based on the context below. \nIf the answer cannot be answerd using the information provided, answer\nwith 'Cannot be answered'\n================================\nContext:\n\nTitle: {article_title}\n\narticle_text: \n{article_text}\n\narticle_tags:\n{article_tags}\n================================\nQuestion: {query}\nAnswer: \n",
+    "input_variables": [
+        "article_title",
+        "article_text",
+        "article_tags",
+        "query"
+    ]
+}

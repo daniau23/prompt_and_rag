@@ -1,0 +1,31 @@
+{
+    "input_variables": [
+        "given_text"
+    ],
+    "examples": [
+        {
+            "text": "I really don't like him",
+            "sentiment": "negative"
+        },
+        {
+            "text": "I love going on long ways around the park",
+            "sentiment": "positive"
+        },
+        {
+            "text": "Nigeria has been though much hardship",
+            "sentiment": "negative"
+        },
+        {
+            "text": "J.cole is my favourite artist followed by Drake",
+            "sentiment": "positive"
+        }
+    ],
+    "example_prompt_input_variables": [
+        "text",
+        "sentiment"
+    ],
+    "example_prompt_template": "\nText: {text}\nSentiment: {sentiment}\n",
+    "prefix": "Here are some examples of text and their associated sentiment",
+    "suffix": "\nNow give the sentiment of the given text by the user, do not explain your answer:\nText: {given_text}\nSentiment:",
+    "example_separator": "\n"
+}
