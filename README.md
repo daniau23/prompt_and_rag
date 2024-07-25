@@ -9,3 +9,5 @@ This is a repo for learning prompting and RAG. In the coming days, I woulld be u
     - chain_of_thought
 - Saving prompts
     - using_prompt_templates
+- Improving Fewshots prompting
+    -  fewshot_selectors
