@@ -11,3 +11,5 @@ This is a repo for learning prompting and RAG. In the coming days, I woulld be u
     - using_prompt_templates
 - Improving Fewshots prompting
     -  fewshot_selectors
+- RAG
+    - indexes_and_retrievers
